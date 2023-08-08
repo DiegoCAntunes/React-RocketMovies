@@ -65,11 +65,6 @@ export const Form = styled.form`
         gap: 40px;
         margin-bottom: 30px;
 
-        >Button:nth-child(1){
-            color: ${({theme})=> theme.COLORS.RED};
-            background-color: ${({theme})=> theme.COLORS.BLACK};
-        }
-
     }
 
     >h2{
@@ -90,10 +85,6 @@ export const Form = styled.form`
 
         >div{
             margin-bottom: 0;
-
-            >input{
-
-            }
         }
     }    
 `

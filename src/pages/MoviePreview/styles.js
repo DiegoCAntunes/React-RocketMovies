@@ -74,6 +74,12 @@ export const Container = styled.div`
 
         >p{
             text-align: justify;
+            margin-bottom: 16px;
+        }
+
+        >button{
+            color: ${({theme})=> theme.COLORS.RED};
+            background-color: ${({theme})=> theme.COLORS.BLACK};
         }
     }
 

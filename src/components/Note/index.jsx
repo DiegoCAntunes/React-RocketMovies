@@ -41,7 +41,7 @@ export function Note({data, ...rest}){
 </defs>
 </svg>
             </div>
-            <p>{data.text}</p>
+            <p>{data.description}</p>
 
             {
                 data.tags &&
