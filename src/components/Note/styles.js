@@ -22,6 +22,10 @@ export const Container = styled.button`
         display: flex;
         align-items: flex-start;
         margin: 8px 0 15px;
+
+        >svg{
+            color: ${({ theme}) => theme.COLORS.RED};
+        }
     }
 
     >p{
